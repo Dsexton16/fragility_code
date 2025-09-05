@@ -4,7 +4,7 @@ from sklearn.utils.validation import check_array, check_is_fitted
 from sklearn.base import RegressorMixin, MultiOutputMixin
 from sklearn.linear_model._base import LinearModel
 
-from sysid import SIDBase, PostHocMixin
+from src.sysid import SIDBase, PostHocMixin
 
 SUPPORTED_SYSID_METHODS = ["pinv"]
 
